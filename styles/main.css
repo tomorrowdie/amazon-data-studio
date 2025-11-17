@@ -1,0 +1,124 @@
+/* Import font */
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@300;400;500;600;700&display=swap');
+
+/* Base styles */
+* {
+   font-family: 'Readex Pro';
+}
+
+/* Layout */
+.stApp {
+   background-color: #212A37;
+}
+
+section.main {
+   padding: 2rem;
+}
+
+/* Images */
+img {
+   border-radius: 50%;
+   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Typography */
+h1, h2, h3 {
+   color: #ffffff;
+}
+
+/* Links */
+a {
+   text-decoration: none;
+   color: white !important;
+   font-weight: 500;
+}
+
+a:hover {
+   color: #d33682 !important;
+   text-decoration: none;
+}
+
+/* Buttons */
+.stButton button {
+   width: 100%;
+   margin-top: 1rem;
+}
+
+/* Form styling */
+[data-testid="stForm"] {
+    background-color: #1E2630;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    max-width: 500px;
+    margin: 0 auto;
+    position: relative;
+}
+
+/* Form inputs */
+.stTextInput input,
+.stTextArea textarea {
+    background-color: #2D3748 !important;
+    border: 1px solid #4A5568 !important;
+    color: white !important;
+    border-radius: 5px;
+    padding: 8px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.stTextInput input:focus,
+.stTextArea textarea:focus {
+    border-color: #3182CE !important;
+    box-shadow: 0 0 0 1px #3182CE !important;
+    outline: none;
+}
+
+/* Form Submit Button */
+[data-testid="stForm"] .stButton button {
+    background-color: #3182CE;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    width: auto;
+    margin: 0 auto;
+    display: block;
+}
+
+[data-testid="stForm"] .stButton button:hover {
+    background-color: #2C5282;
+}
+
+/* Close Button */
+button[data-testid="baseButton-secondary"] {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: none !important;
+    border: none;
+    color: white !important;
+    font-size: 24px;
+    cursor: pointer;
+    padding: 0;
+    width: auto;
+    margin: 0;
+}
+
+button[data-testid="baseButton-secondary"]:hover {
+    opacity: 0.8;
+}
+
+/* Form Container */
+[data-testid="stForm"] > div:first-child {
+    background-color: #1E2630;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Success/Error Messages */
+.stAlert {
+    margin-top: 1rem;
+}
