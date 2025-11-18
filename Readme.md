@@ -35,10 +35,6 @@ Place these files in the `views/` folder:
 
 ## 👨‍💻 Author
 **John Chin**  
-Email: chinhotak@gmail.com
 
-## 🌐 Deploy to Streamlit Cloud
-1. Push to GitHub
-2. Go to https://share.streamlit.io/
-3. Connect your repo
-4. Deploy!
+## More tools will update at https://www.anergyacademy.com/
+
